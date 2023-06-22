@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>L<span>OG</span>O</h1>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Plans</a>
+          </li>
+          <li>
+            <a href="#">hello@tales.com</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Tus tareas jamas fueron tan <span>faciles</span></h2>
+        <p>
+          ¿Alguna vez has estado abrumado con la cantidad de tareas que tienes
+          que hacer y no tienes suficiente tiempo para completarlas todas? Si la
+          respuesta es sí, ¡estás en el lugar correcto! Nuestro servicio fue
+          creado para ayudarte!
+        </p>
+        <ul>
+          <li>
+            <a href="#" id="contact">Contactanos</a>
+          </li>
+          <li>
+            <a href="#" class="link">Conoce mas</a>
+          </li>
+        </ul>
+      </section>
+      <picture>
+        <img src="img/hero.webp" alt="" />
+      </picture>
+    </main>
+
+    <form id="contact-form">
+      <label for="title"><span id="send">Send Mail To Us</span><span id="btn-end">X</span></label>
+      <section>
+      <input type="text" id="name" name="name" required placeholder="Asunto:" />
+      <textarea id="message" name="message" required placeholder="Descripcion:" ></textarea>
+      <button id="btn" type="submit">Enviar</button>
+      </section>
+      <picture><img  id="img" src="img/work.webp" alt=""></picture>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
